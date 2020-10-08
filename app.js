@@ -13,6 +13,7 @@ addTodoForm.addEventListener("submit", (event) => {
   addTodo(addTodoInput.value);
 });
 
+// Function for adding list item
 function addTodo(todoText) {
   todoList.insertAdjacentHTML(
     "beforeend",
@@ -21,6 +22,8 @@ function addTodo(todoText) {
   addTodoForm.reset();
   addTodoInput.focus();
 }
+
+// Function for deleting list item
 function deleteTodo(element) {
   element.parentElement.remove();
   addTodoInput.focus();
