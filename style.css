@@ -1,5 +1,6 @@
 #headerColor {
-  background-color: aquamarine;
+  background-color: #6d4c41;
+  color: #bcaaa4;
   margin: 0 0 30px 0;
   text-align: center;
   height: 80px;
@@ -10,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: monospace;
+  font-style: italic;
 }
 ul {
   border: 1px solid #eee;
@@ -18,12 +21,15 @@ ul {
   list-style: none;
 }
 
+li:nth-child(1n + 1) {
+  background-color: #81d4fa;
+}
 li:nth-child(2n + 1) {
-  background-color: #bdbdbd;
+  background-color: #69f0ae;
 }
 
 li :hover {
-  background-color: bisque;
+  background-color: #f8bbd0;
 }
 
 li {

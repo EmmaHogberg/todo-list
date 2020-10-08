@@ -19,6 +19,7 @@ function addTodo(todoText) {
     `<li>${todoText}<button onclick="deleteTodo(this)">delete</button></li>`
   );
   addTodoForm.reset();
+  addTodoInput.focus();
 }
 function deleteTodo(element) {
   element.parentElement.remove();
