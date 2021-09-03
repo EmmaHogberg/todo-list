@@ -14,3 +14,9 @@ Lägg upp koden på github.
 Lägg till två länkar här när du är klar. Länka till:
 - Din Github Pages sida
 - Din kod på Github
+
+# Sample images of the finished page
+
+![Ex1](https://user-images.githubusercontent.com/70634183/132075290-650b145e-7194-4af2-91f3-fe49475f78da.jpg)
+
+
